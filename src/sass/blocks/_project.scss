@@ -1,0 +1,33 @@
+.project-preview, .project-preview_mobile {
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* margin-top: 43px; */
+    justify-content: space-between;
+    align-items: center;
+}
+.project-preview-text {
+    width: 60%;
+    /* padding: 40px; */
+    font-size: 20px;
+}
+.project-preview-text h2 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 50px;
+    margin-top: 0;
+}
+.project-preview-text span {
+    font-size: 18px;
+    white-space: pre-line;
+}
+
+
+.project-preview-cap {
+    width: 30%;
+}
+.project-preview-cap img {
+    /* width: 780px; */
+    /* height: 600px; */
+    object-fit: cover;
+	width: 100%;
+}
